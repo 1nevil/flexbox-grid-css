@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+      }
+      .card {
+        height: 27rem;
+        width: 20rem;
+        background-color: rgb(231, 231, 231);
+        margin: 2rem;
+        box-shadow: 15px 15px 5px 0px rgb(177, 177, 177);
+      }
+      .card:hover {
+        transform: scale(1.05);
+        background-color: rgb(231, 231, 231);
+        transition: all 0.5s ease;
+      }
+      .card-img {
+        background-color: rgb(115, 112, 255);
+        height: 10rem;
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+      .img1 {
+        background-image: url("person1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .img2 {
+        background-image: url("person2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .img3 {
+        background-image: url("person3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .header {
+        text-align: center;
+        color: rgb(83, 81, 79);
+        font-size: 3em;
+        margin-bottom: 2rem;
+      }
+      h1 {
+        font-size: 20px;
+        color: rgb(78, 78, 78);
+        margin-bottom: 3rem;
+      }
+      p {
+        text-align: justify;
+        margin: 10px;
+        color: rgba(0, 0, 0, 0.63);
+      }
+      .btn {
+        margin-top: 1rem;
+        background-color: rgb(39, 39, 39);
+        color: white;
+        height: 40px;
+        width: 160px;
+        border: none;
+        border-radius: 20px;
+      }
+      .btn a {
+        text-decoration: none;
+        color: white;
+      }
+      .icons {
+        padding-top: 20px;
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="header">About us</h2>
+    <div class="container">
+      <div class="card">
+        <div class="card-img img1"></div>
+        <h1>MATT TRACE</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. beatae
+          consequatur, enim voluptas mollitia.
+        </p>
+        <div class="icons">
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-instagram"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
+          <ion-icon name="logo-youtube"></ion-icon>
+        </div>
+        <button class="btn">
+          <a href="#"
+            >Learn more <ion-icon name="arrow-round-forward"></ion-icon
+          ></a>
+        </button>
+      </div>
+      <div class="card">
+        <div class="card-img img2"></div>
+        <h1>DON KEY</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. beatae
+          consequatur, enim voluptas mollitia.
+        </p>
+        <div class="icons">
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-instagram"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
+          <ion-icon name="logo-youtube"></ion-icon>
+        </div>
+        <button class="btn">
+          <a href="#"
+            >Learn more <ion-icon name="arrow-round-forward"></ion-icon
+          ></a>
+        </button>
+      </div>
+
+      <div class="card">
+        <div class="card-img img3"></div>
+        <h1>RAY GUNN</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. beatae
+          consequatur, enim voluptas mollitia.
+        </p>
+        <div class="icons">
+          <ion-icon name="logo-facebook"></ion-icon>
+          <ion-icon name="logo-instagram"></ion-icon>
+          <ion-icon name="logo-twitter"></ion-icon>
+          <ion-icon name="logo-youtube"></ion-icon>
+        </div>
+        <button class="btn">
+          <a href="#"
+            >Learn more <ion-icon name="arrow-round-forward"></ion-icon
+          ></a>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

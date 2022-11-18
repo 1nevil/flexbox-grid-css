@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  height: 300px;
+
+  /* ---------------------------------------------- */
+  /* flex-direction: column ; */
+  /* flex-direction: column-reverse ; */
+  /* flex-direction: row-reverse ; */
+
+  /* --------------------------------------------- */
+  /* justify-content: center; */
+  /* justify-content: start; */
+  /* justify-content: end; */
+  /* justify-content: space-around; also work with align items*/
+  /* --------------------------------------------------- */
+  /* align-items: center; */
+  /* align-items: flex-start; */
+  /* align-items: flex-end; */
+
+  /* -------------------------------------------------------- */
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+
+  /* ------------------- */
+  /* flex-flow: column wrap; */
+}
+.items {
+  margin: 10px;
+  background-color: rgb(244, 75, 75);
+  border: 1px solid rgb(226, 108, 226);
+  height: 120px;
+  width: 120px;
+}
+
+.item2 {
+  order: 1;
+  flex-grow: 2;
+}
+.item3 {
+  order: 2;
+  flex-shrink: 2;
+}
+
+.item1 {
+  flex-grow: 4;
+}
+
+.item4 {
+  align-self: center;
+}
